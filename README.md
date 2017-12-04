@@ -1,5 +1,5 @@
 # Project Name
-Team Name : Random Average Coders (RAC)<br />
+Team Name : Real Advanced Coders (RAC)<br />
 Team Members : Zedrick Wills Ara, Kayla Diniega, Jomari Jacinto <br />
 Project Manager : Zedrick Wills Ara <br />
 Company : Nordstrom
@@ -8,7 +8,9 @@ Company : Nordstrom
 Nordstrom's goal is to provide customers the best service, and to modernize themselves to millenials. They struggle with keeping up with the new trends that millenials have to offer, which results in less interest to younger shoppers.
 
 ## Project Proposal
-Description of your team's solution, include tech stack you will be using.
+To resolve Nordstrom's situation, RAC will develop an image recognition function to Nordstrom's current app. By developing this function, it will modernize the many styles available for millenial shoppers, and other users.
+
+Tech Stack : (TBD)
 
 ## Project Plan
 List the milestones in your project and high level tasks for each, for example:
