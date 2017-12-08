@@ -11,19 +11,46 @@ Nordstrom's goal is to provide customers the best service, and to modernize them
 To resolve Nordstrom's situation, RAC will develop an image recognition function to Nordstrom's current app. By developing this function, it will modernize the many styles available for millenial shoppers, and other users.
 
 Tech Stack (TBD) :
+HTML, CSS, and Javascript
 Javascript
 CraftAR Cloud Image Recognition Javascript Library
+AWS Lambdas
 
 MVP:
-Image recognition
+Image recognition working on the Women's Loungewear
 
 Stretch Goals :
 Improve Nordstrom's UI
-
-
+Image recognition for other areas
 
 ## Project Plan
-List the milestones in your project and high level tasks for each, for example:
+### Pulling the HTML and CSS from Nordstrom App
+    - Develop the lambda function
+    - Test it locally
+    - Pull the HTML and CSS
+
+### Creating the image recognition function
+    - Create the javascript file
+    - Start on the function
+    - Test the function
+    - Implement function into the original app
+
+### Create a video demo
+    - Highlight image recognition
+    - Explain how it works?
+
+### Create Presentation
+    - Address Problem + Solution
+    - Explain how it works
+    - Highlight usage
+    - Why this allows for a better future for Nordstrom
+
+### Stretch Goals
+    - Brainstorm UI improvements
+        - Implement the UI improvements
+    - Attempt to develop the image recognition to other areas
+    
+
 - Create Design Wireframes and Mockups.
     - Wireframe for page 1
     - Wireframe for page 2
@@ -45,8 +72,6 @@ List the milestones in your project and high level tasks for each, for example:
     - Stretch Goal 1
     - Stretch Goal 2
     
-## Key Findings
-Explain your hurdles throughout the project and how your team overcame them. Show how your project changed or scope changed throughout the development of your solution.
 
 ## Skills Learned
 Explain what your team learned in developing this project. 
