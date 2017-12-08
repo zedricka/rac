@@ -10,18 +10,18 @@ Nordstrom's goal is to provide customers the best service, and to modernize them
 ## Project Proposal
 To resolve Nordstrom's situation, RAC will develop an image recognition function to Nordstrom's current app. By developing this function, it will modernize the many styles available for millenial shoppers, and other users.
 
-Tech Stack (TBD) :
-HTML, CSS, and Javascript
-Javascript
-CraftAR Cloud Image Recognition Javascript Library
-AWS Lambdas
+### Tech Stack (TBD) :
+- HTML, CSS, and Javascript
+- Javascript
+- CraftAR Cloud Image Recognition Javascript Library
+- AWS Lambdas
 
-MVP:
-Image recognition working on the Women's Loungewear
+### MVP:
+- Image recognition working on the Women's Loungewear
 
-Stretch Goals :
-Improve Nordstrom's UI
-Image recognition for other areas
+### Stretch Goals :
+- Improve Nordstrom's UI
+- Image recognition for other areas
 
 ## Project Plan
 ### Pulling the HTML and CSS from Nordstrom App
