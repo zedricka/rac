@@ -12,7 +12,6 @@ To resolve Nordstrom's situation, RAC will develop an image recognition function
 
 ### Tech Stack (TBD) :
 - HTML, CSS, and Javascript
-- Javascript
 - CraftAR Cloud Image Recognition Javascript Library
 - AWS Lambdas
 
