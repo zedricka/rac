@@ -49,5 +49,4 @@ To resolve Nordstrom's situation, RAC will develop an image recognition function
         - Implement the UI improvements
     - Attempt to develop the image recognition to other areas
     
-## Skills Learned
-Explain what your team learned in developing this project. 
+
