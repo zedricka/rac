@@ -8,7 +8,7 @@ Company : Nordstrom
 Nordstrom's goal is to provide customers the best service, and to modernize themselves to millenials. They struggle with keeping up with the new trends that millenials have to offer, which results in less interest to younger shoppers.
 
 ## Project Proposal
-To resolve Nordstrom's situation, RAC will develop an image recognition function to Nordstrom's current app. By developing this function, it will modernize the many styles available for millenial shoppers, and other users.
+To resolve Nordstrom's situation, RAC will develop an image recognition function to Nordstrom's current app. By developing this function, it will modernize the many styles available for millenial shoppers, and other users. To clarify, the image recognition will both diversify the store's way of presenting clothing to their customers, and attract more customers (such as millenials) to the store with the new feature.
 
 ### Tech Stack (TBD) :
 - HTML, CSS, and Javascript
