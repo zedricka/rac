@@ -23,30 +23,30 @@ To resolve Nordstrom's situation, RAC will develop an image recognition function
 - Image recognition for other areas
 
 ## Project Plan
-### Pulling the HTML and CSS from Nordstrom App
-    - Develop the lambda function
-    - Test it locally
-    - Pull the HTML and CSS
+### Pulling the HTML and CSS from Nordstrom App:
+- Develop the lambda function
+- Test it locally
+- Pull the HTML and CSS
 
 ### Creating the image recognition function
-    - Create the javascript file
-    - Start on the function
-    - Test the function
-    - Implement function into the original app
+- Create the javascript file
+- Start on the function
+- Test the function
+- Implement function into the original app
 
 ### Create a video demo
-    - Highlight image recognition
-    - Explain how it works?
+- Highlight image recognition
+- Explain how it works?
 
 ### Create Presentation
-    - Address Problem + Solution
-    - Explain how it works
-    - Highlight usage
-    - Why this allows for a better future for Nordstrom
+- Address Problem + Solution
+- Explain how it works
+- Highlight usage
+- Why this allows for a better future for Nordstrom
 
 ### Stretch Goals
-    - Brainstorm UI improvements
-    - Implement the UI improvements
-    - Attempt to develop the image recognition to other areas
+- Brainstorm UI improvements
+- Implement the UI improvements
+- Attempt to develop the image recognition to other areas
     
 
