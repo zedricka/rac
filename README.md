@@ -46,7 +46,7 @@ To resolve Nordstrom's situation, RAC will develop an image recognition function
 
 ### Stretch Goals
     - Brainstorm UI improvements
-        - Implement the UI improvements
+    - Implement the UI improvements
     - Attempt to develop the image recognition to other areas
     
 
