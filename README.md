@@ -19,6 +19,7 @@ To resolve Nordstrom's situation, RAC will develop an image recognition function
 - jQuery
 - AWS CLI
 - Android API
+- Amazon Rekognition
 
 ### MVP:
 - Image recognition working on the Women's Loungewear
