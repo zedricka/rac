@@ -12,8 +12,12 @@ To resolve Nordstrom's situation, RAC will develop an image recognition function
 
 ### Tech Stack (TBD) :
 - HTML, CSS, and Javascript
-- CraftAR Cloud Image Recognition Javascript Library
+- CraftAR Cloud Image Recognition Javascript Library (Possibility)
 - AWS Lambdas
+- tracking.js (Possibility)
+- API Gateways
+- jQuery
+- AWS CLI
 
 ### MVP:
 - Image recognition working on the Women's Loungewear
