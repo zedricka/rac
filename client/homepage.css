@@ -1,3 +1,24 @@
-body{
-  
+#menu{
+  height: 3%;
+  width: 3%;
+}
+
+#logo{
+  height: 8%;
+  width: 8%;
+}
+
+#camera{
+  height: 3%;
+  width: 3%;
+}
+
+#search{
+  height: 3%;
+  width: 3%;
+}
+
+#shopping{
+  height: 3%;
+  width: 3%;
 }
