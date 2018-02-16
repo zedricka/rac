@@ -1,24 +1,45 @@
+#topHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
 #menu{
   height: 3%;
   width: 3%;
+  float: left;
 }
 
 #logo{
   height: 8%;
   width: 8%;
+  padding-top: 23px;
 }
 
 #camera{
   height: 3%;
   width: 3%;
+  float: right;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 #search{
-  height: 3%;
-  width: 3%;
+  height: 2.5%;
+  width: 2.5%;
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+
 }
 
 #shopping{
   height: 3%;
   width: 3%;
+
 }
