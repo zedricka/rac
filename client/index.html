@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title></title>
   </head>
+  <script src="https://js.stripe.com/v3/"></script>
   <body>
   <div class="container">
     <div class="itemcheckedout">
@@ -30,9 +31,25 @@
     <button type="button" name="checkout"></button>
     <button type="button" name="clear cart"></button>
   </div>
+
+  <form action="/charge" method="post" id="payment-form">
+    <div class="form-row">
+      <label for="card-element">
+        Credit or debit card
+      </label>
+      <div id="card-element">
+        <!-- A Stripe Element will be inserted here. -->
+      </div>
+
+      <!-- Used to display Element errors. -->
+      <div id="card-errors" role="alert"></div>
+    </div>
+
+    <button>Submit Payment</button>
+  </form>
+
   </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
-  <script src="https://js.stripe.com/v3/"></script>
   <script src="app.js"></script>
   <link rel="stylesheet" href="styles.css">
 </html>
