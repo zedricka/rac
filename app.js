@@ -1,3 +1,4 @@
+// Stripe Integration
 var stripe = Stripe(pk_test_aMtFHuxPvtQUV8eEMwdfHZwH
 );
 
