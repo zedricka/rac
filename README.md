@@ -8,42 +8,34 @@ Company : Nordstrom
 Nordstrom's goal is to provide customers the best service, and to modernize themselves to millenials. They struggle with keeping up with the new trends that millenials have to offer, which results in less interest to younger shoppers.
 
 ## Project Proposal
-To resolve Nordstrom's situation, RAC will develop an image recognition function to Nordstrom's current app. By developing this function, it will modernize the many styles available for millenial shoppers, and other users. To clarify, the image recognition will both diversify the store's way of presenting clothing to their customers, and attract more customers (such as millenials) to the store with the new feature.
+To resolve Nordstrom's situation, RAC will develop an Bar Code reader function to Nordstrom's current app. By developing this function, it will modernize the way of how millenial shoppers and other users purchase clothes in store. To clarify, the Bar Code reader will both diversify the store's way of buying clothing to their customers, and attract more customers (such as millenials) to the store with the new feature.
 
-### Tech Stack (TBD) :
+### Tech Stack:
 - HTML, CSS, and Javascript
-- CraftAR Cloud Image Recognition Javascript Library (Possibility)
 - AWS Lambdas
-- tracking.js (Possibility)
-- API Gateways
-- jQuery
-- AWS CLI
+- QuaggaJS
+- Stripe Intergration
+- npm
 - Android API
-- Amazon Rekognition
 
 ### MVP:
-- Image recognition working on the Women's Loungewear
+- Bar Scanning working on EAN codes
 
 ### Stretch Goals :
 - Improve Nordstrom's UI
-- Image recognition for other areas
 - Available on iOS
+- Allow the Bar Code Scanner to be universal
 
 ## Project Plan
-### Pulling the HTML and CSS from Nordstrom App:
-- Develop the lambda function
-- Test it locally
-- Pull the HTML and CSS
-
-### Creating the image recognition function
+### Creating the Bar Code scanning function
 - Create the javascript file
 - Start on the function
 - Test the function
 - Implement function into the original app
 
 ### Create a video demo
-- Highlight image recognition
-- Explain how it works?
+- Highlight Bar Code Scanning 
+- Explain how it works
 
 ### Create Presentation
 - Address Problem + Solution
@@ -54,7 +46,7 @@ To resolve Nordstrom's situation, RAC will develop an image recognition function
 ### Stretch Goals
 - Brainstorm UI improvements
 - Implement the UI improvements
-- Attempt to develop the image recognition to other areas
+- Attempt to allow the Bar Code Scanning to be universal
 
     
 
