@@ -1,69 +1,49 @@
-console.log("Sanity Check");
+console.log('sanity check');
 
-// Stripe Integration
-var stripe = Stripe("pk_test_aMtFHuxPvtQUV8eEMwdfHZwH");
-var elements = stripe.elements();
+// importing our dependencies
+const express = require('express');
+// used to parse body response
+const bodyParser = require('body-parser');
+const path = require('path');
+// create express app
+const app = express(); 
+// environment port or 3000
+const PORT = process.env.PORT || 8080;
+// bring in secret key
+const CONFIG = require('./config/config.json');
+// stripe dependency
+const stripe = require('stripe')(CONFIG.SECRET_KEY);
 
-// Custom styling can be passed to options when creating an Element.
-var style = {
-  base: {
-    color: '#32325d',
-    lineHeight: '18px',
-    fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
-    fontSmoothing: 'antialiased',
-    fontSize: '16px',
-    '::placeholder': {
-      color: '#aab7c4'
-    }
-  },
-  invalid: {
-    color: '#fa755a',
-    iconColor: '#fa755a'
-  }
-};
 
-// Create an instance of the card Element.
-var card = elements.create('card', {style: style});
+// routes to main page
 
-// Add an instance of the card Element into the `card-element` <div>.
-card.mount('#card-element');
+// parses response body
+app.use(bodyParser.json);
+app.use(bodyParser.urlencoded({ extended: true}));
 
-// Displays errors to users
-card.addEventListener('change', function(event) {
-  var displayError = document.getElementById('card-errors');
-  if (event.error) {
-    displayError.textContent = event.error.message;
-  } else {
-    displayError.textContent = '';
-  }
+app.get('/', function(req, res) {
+	res.sendFile(path.join(__dirname + '/index.html'));
 });
 
-// Create a token or display an error when the form is submitted.
-var form = document.getElementById('payment-form');
-form.addEventListener('submit', function(event) {
-  event.preventDefault();
+app.post('/charge', function (req, res){
+	var stripeToken = req.body.stripeToken;
+	var amount = 1000;
 
-  stripe.createToken(card).then(function(result) {
-    if (result.error) {
-      // Inform the customer that there was an error.
-      var errorElement = document.getElementById('card-errors');
-      errorElement.textContent = result.error.message;
-    } else {
-      // Send the token to your server.
-      stripeTokenHandler(result.token);
-    }
-  });
+	stripe.charges.create(
+	{
+		card: stripeToken,
+		currency:'used',
+		amount: amount
+	},
+	function(err, charge) {
+		if (err) {
+			res.send(500, err);
+		} else {
+			res.send(204);
+		}
+	})
 });
-
-// function stripeTokenHandler(token) {
-//   // Insert the token ID into the form so it gets submitted to the server
-//   var form = document.getElementById('payment-form');
-//   var hiddenInput = document.createElement('input');
-//   hiddenInput.setAttribute('type', 'hidden');
-//   hiddenInput.setAttribute('name', 'stripeToken');
-//   hiddenInput.setAttribute('value', token.id);
-//   form.appendChild(hiddenInput);
-
-//   // Submit the form
-//   form.submit();
-// }
+// server listening on PORT
+app.listen(PORT, function() {
+	console.log(`Server running on ${PORT}`);
+});

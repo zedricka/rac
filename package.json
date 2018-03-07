@@ -1,0 +1,25 @@
+{
+  "name": "rac",
+  "version": "1.0.0",
+  "description": "Team Name : Real Advanced Coders (RAC)<br />\r Team Members : Zedrick Wills Ara, Kayla Diniega, Jomari Jacinto <br />\r Project Manager : Zedrick Wills Ara <br />\r Company : Nordstrom",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zedricka/rac.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zedricka/rac/issues"
+  },
+  "homepage": "https://github.com/zedricka/rac#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "stripe": "^5.5.0"
+  }
+}
