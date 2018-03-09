@@ -1,4 +1,4 @@
-console.log('sanity check');
+// console.log('Sanity Check');
 
 // importing our dependencies
 const express = require('express');
