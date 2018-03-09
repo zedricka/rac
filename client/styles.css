@@ -1,0 +1,177 @@
+<<<<<<< HEAD
+=======
+body{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1%;
+  justify-content: space-around;
+  background-color: light-gray;
+  font-family: 'Raleway', sans-serif;
+}
+/*Picture of product from camerabox. and details about product*/
+
+
+.block1 {
+  padding: 75px;
+  border: 1px solid black;
+  padding-bottom: 770px;
+  border-radius: 25px;
+  align-items:flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.itemcheckedout{
+  padding: 50px;
+  flex: 1;
+  flex-direction: column;
+  flex-basis: 66.66%;
+}
+
+#image {
+  padding: 30px;
+  border: 1px solid black;
+
+}
+
+/*Seperator*/
+
+/*Camera, checkout button, and clear cart button CSS code*/
+.block2{
+  padding: 100px;
+}
+
+.camerabox{
+  padding:100px;
+  height: auto;
+  width: 100px;
+  border: 1px solid black;
+}
+
+.buttons{
+  padding-top: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.checkout{
+  border-radius: 4px;
+  background-color: #bdbbba;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.checkout span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.checkout span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.checkout:hover span {
+  padding-right: 25px;
+}
+
+.checkout:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.clearcart{
+  border-radius: 4px;
+  background-color: #e62600;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.clearcart span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.clearcart span:after {
+  content: '\00AB';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -20px;
+  transition: 0.5s;
+}
+
+.clearcart:hover span {
+  padding-left: 25px;
+}
+
+.clearcart:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
+/*Seperator*/
+
+.block3{
+  padding: 75px;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding-left: 350px;
+  padding-right: 90px;
+}
+
+
+
+/* .buttons{
+  align-self: center;
+  padding: 5%;
+  border: 0px;
+} */
+
+
+/* .container {
+  display: flex;
+  align-items: flex-start;
+  height: 300px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container>*:first-child {
+    align-self: stretch
+    padding: 3%;
+    flex: 0 1 25%;
+    border: 1px solid black;
+    height: 100%;
+}
+.container .buttons {
+    align-self: center;
+    padding: 100px;
+} */
+>>>>>>> 246cf864449bdf886de7d7e8aa766511073daae0
