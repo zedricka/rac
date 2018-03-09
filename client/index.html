@@ -31,33 +31,8 @@
     <button type="button" name="clear cart"></button>
   </div>
 
-
-<!-- Submit form -->
-  <script src="https://js.stripe.com/v3/"></script>
-  <form action="/charge" method="post" id="payment-form">
-    <div class="form-row">
-      <label for="card-element">
-        Credit or debit card
-      </label>
-      <div id="card-element" class="StripeElement">
-        <input type="tel" autocomplete="cc-number" autocorrect="off" spellcheck="false" name="cardnumber" class="InputElement is-empty" aria-label="Credit or debit card number" placeholder="Card number" aria-placeholder="Card number" aria-invalid="false" value="">
-        <!-- A Stripe Element will be inserted here. -->
-      </div>
-
-      <!-- Used to display Element errors. -->
-      <div id="card-errors" role="alert"></div>
-    </div>
-
-
-
-    <button>Submit Payment</button>
-  </form>
-
-
-
-
   </body>
-
+  <script src="https://js.stripe.com/v3/"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
   <script src="app.js"></script>
   <link rel="stylesheet" href="styles.css">
