@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-=======
 body{
-  display: flex;
-  flex-direction: row;
+
   padding-bottom: 1%;
-  justify-content: space-around;
   background-color: light-gray;
   font-family: 'Raleway', sans-serif;
 }
@@ -13,24 +9,30 @@ body{
 
 .block1 {
   padding: 75px;
-  border: 1px solid black;
+  border: 3px solid black;
   padding-bottom: 770px;
   border-radius: 25px;
   align-items:flex-start;
   display: flex;
   flex-direction: column;
+  max-width: 770px;
 }
 .itemcheckedout{
   padding: 50px;
   flex: 1;
   flex-direction: column;
   flex-basis: 66.66%;
+
+
 }
 
 #image {
   padding: 30px;
   border: 1px solid black;
-
+  max-height: 400px;
+  height: 250px;
+  max-width: 400px;
+  width: 400px;
 }
 
 /*Seperator*/
@@ -140,7 +142,7 @@ body{
 
 .block3{
   padding: 75px;
-  border: 1px solid black;
+  border: 3px solid black;
   border-radius: 25px;
   padding-left: 350px;
   padding-right: 90px;
@@ -174,4 +176,3 @@ body{
     align-self: center;
     padding: 100px;
 } */
->>>>>>> 246cf864449bdf886de7d7e8aa766511073daae0
