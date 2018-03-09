@@ -2,7 +2,7 @@
    padding: 10px;
    border: 1px solid black;
    height: 100%;
-   float: right;
+
 }
 
 .itemcheckedout{
@@ -14,9 +14,8 @@
 
 .center{
   display: flex;
-  align-items: flex-start;
   height: 50%;
-  flex-wrap: wrap;
+
   flex-direction: column;
 }
 
