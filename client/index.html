@@ -6,7 +6,6 @@
 <!--     <link rel="stylesheet" href="/styles.css"> -->
   </head>
   <body>
-
     <form action="/charge" method="POST">
         <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                 data-key="pk_test_aMtFHuxPvtQUV8eEMwdfHZwH"
@@ -19,10 +18,42 @@
         >
         </script>
     </form>
-    
+  <div class="block1">
+    <div class="itemcheckedout">
+      <div id="image">
+      </div>
+    </div>
+    <div id="details">
+      </div>
+  </div>
+
+  <div class="block2">
+      <div class="camerabox"></div>
+      <div class="buttons">
+        <button type="button" class="checkout"><span>Checkout</span></button>
+        <button type="button" class="clearcart"><span>Clear Cart</span></button>
+      </div>
+  </div>
+
+  <div class="block3">
+    <div class="cart">
+      <div id="cartitem">
+        <div id="ciimage">
+        </div>
+        <div id="cartarrow">
+        </div>
+        <div id="remove">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
   </body>
   <script src="https://js.stripe.com/v3/"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
-<!--   <script src="../app.js"></script> -->
-
+  <script src="app.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </html>
