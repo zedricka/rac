@@ -5,6 +5,7 @@ body{
   justify-content: space-around;
   background-color: light-gray;
   font-family: 'Raleway', sans-serif;
+  max-height: 800px;
 }
 /*Picture of product from camerabox. and details about product*/
 
@@ -12,24 +13,36 @@ body{
 .block1 {
   padding: 75px;
   border: 1px solid black;
-  padding-bottom: 770px;
+  padding-bottom: 700px;
   border-radius: 25px;
-  align-items:flex-start;
+  max-width: 442px;
+  max-height: 700px;
   display: flex;
   flex-direction: column;
-}
-.itemcheckedout{
-  padding: 50px;
-  flex: 1;
-  flex-direction: column;
-  flex-basis: 66.66%;
+
+
 }
 
 #image {
-  padding: 30px;
+  padding: 10px;
+  height: 160px;
   border: 1px solid black;
-
+  margin-left: 62px;
+  margin-right: 100px;
+  margin-bottom: 60px;
 }
+
+ #details {
+   padding: 200px;
+   border: 1px solid black;
+   padding-right: 200px;
+   max-height: 40px;
+   max-width: 40px;
+   margin: 5px;
+   height: 100%;
+   width: 100%;
+ }
+
 
 /*Seperator*/
 
@@ -140,10 +153,17 @@ body{
   padding: 75px;
   border: 1px solid black;
   border-radius: 25px;
-  padding-left: 350px;
+  padding-left: 10%;
   padding-right: 90px;
+  display: flex;
+  align-items: center;
 }
 
+.cart {
+  padding: 20px;
+  margin: 25px;
+  border: 1px solid black;
+}
 
 
 /* .buttons{
