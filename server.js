@@ -31,8 +31,6 @@ app.post('/charge', function(req, res) {
   );
 });
 
-app.use(bodyParser.urlencoded({ extended: true }));
-
 app.listen(PORT, function() {
   console.log(`Server listening on ${PORT}`);
 });
