@@ -1,8 +1,6 @@
 body{
-  display: flex;
-  flex-direction: row;
+
   padding-bottom: 1%;
-  justify-content: space-around;
   background-color: light-gray;
   font-family: 'Raleway', sans-serif;
   max-height: 800px;
@@ -12,13 +10,28 @@ body{
 
 .block1 {
   padding: 75px;
+<<<<<<< HEAD
   border: 1px solid black;
   padding-bottom: 700px;
+=======
+  border: 3px solid black;
+  padding-bottom: 770px;
+>>>>>>> c2989dcef1b410448725fc768fe45383ed914566
   border-radius: 25px;
   max-width: 442px;
   max-height: 700px;
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
+=======
+  max-width: 770px;
+}
+.itemcheckedout{
+  padding: 50px;
+  flex: 1;
+  flex-direction: column;
+  flex-basis: 66.66%;
+>>>>>>> c2989dcef1b410448725fc768fe45383ed914566
 
 
 }
@@ -27,9 +40,16 @@ body{
   padding: 10px;
   height: 160px;
   border: 1px solid black;
+<<<<<<< HEAD
   margin-left: 62px;
   margin-right: 100px;
   margin-bottom: 60px;
+=======
+  max-height: 400px;
+  height: 250px;
+  max-width: 400px;
+  width: 400px;
+>>>>>>> c2989dcef1b410448725fc768fe45383ed914566
 }
 
  #details {
@@ -151,7 +171,7 @@ body{
 
 .block3{
   padding: 75px;
-  border: 1px solid black;
+  border: 3px solid black;
   border-radius: 25px;
   padding-left: 10%;
   padding-right: 90px;
