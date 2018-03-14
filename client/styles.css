@@ -2,7 +2,6 @@ body{
   display: flex;
   flex-direction: row;
   padding-bottom: 1%;
-  justify-content: space-around;
   background-color: light-gray;
   font-family: 'Raleway', sans-serif;
   max-height: 800px;
@@ -35,12 +34,13 @@ body{
  #details {
    padding: 200px;
    border: 1px solid black;
-   padding-right: 200px;
+   padding-right: 150px;
    max-height: 40px;
    max-width: 40px;
    margin: 5px;
+   margin-left: -25px;
    height: 100%;
-   width: 100%;
+   width: 70%;
  }
 
 
@@ -150,21 +150,17 @@ body{
 /*Seperator*/
 
 .block3{
-  padding: 75px;
+  padding: 20px;
+  margin: 10px;
   border: 1px solid black;
   border-radius: 25px;
-  padding-left: 10%;
+  padding-left: 25%;
   padding-right: 90px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  width: 3%;
+  justify-content:flex-start;
 }
-
-.cart {
-  padding: 20px;
-  margin: 25px;
-  border: 1px solid black;
-}
-
 
 /* .buttons{
   align-self: center;
