@@ -2,6 +2,7 @@ body{
   display: flex;
   flex-direction: row;
   padding-bottom: 1%;
+  justify-content: space-around;
   background-color: light-gray;
   font-family: 'Raleway', sans-serif;
   max-height: 800px;
@@ -34,13 +35,12 @@ body{
  #details {
    padding: 200px;
    border: 1px solid black;
-   padding-right: 150px;
+   padding-right: 200px;
    max-height: 40px;
    max-width: 40px;
    margin: 5px;
-   margin-left: -25px;
    height: 100%;
-   width: 70%;
+   width: 100%;
  }
 
 
@@ -67,14 +67,12 @@ body{
 }
 
 .checkout{
-  border-radius: 4px;
-  background-color: #bdbbba;
   border: none;
   color: black;
   text-align: center;
   font-size: 14px;
-  padding: 20px;
-  width: 150px;
+  padding: 5px;
+  width: 100px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -99,7 +97,7 @@ body{
 }
 
 .checkout:hover span {
-  padding-right: 25px;
+  padding-right: 20px;
 }
 
 .checkout:hover span:after {
@@ -150,17 +148,21 @@ body{
 /*Seperator*/
 
 .block3{
-  padding: 20px;
-  margin: 10px;
+  padding: 75px;
   border: 1px solid black;
   border-radius: 25px;
-  padding-left: 25%;
+  padding-left: 10%;
   padding-right: 90px;
   display: flex;
-  flex-direction: column;
-  width: 3%;
-  justify-content:flex-start;
+  align-items: center;
 }
+
+.cart {
+  padding: 20px;
+  margin: 25px;
+
+}
+
 
 /* .buttons{
   align-self: center;
