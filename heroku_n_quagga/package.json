@@ -1,0 +1,24 @@
+{
+  "name": "heroku_n_quagga",
+  "version": "1.0.0",
+  "description": "barcode prototype",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cutiegirl526/heroku_n_quagga.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cutiegirl526/heroku_n_quagga/issues"
+  },
+  "homepage": "https://github.com/Cutiegirl526/heroku_n_quagga#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "quagga": "^0.12.1"
+  }
+}
