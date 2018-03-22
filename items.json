@@ -1,0 +1,25 @@
+{
+	"items": [
+		{
+			"name": "Very Awesome Coat",
+			"picture": "trashbagcoat.jpg",
+			"cost": "20,000 euros",
+			"size": "XXS",
+			"color": "Opaque Couché"
+		}
+		{
+			"name": "The Very Sad Coat",
+			"picture": "uglycoat.jpg",
+			"cost": "420,000 yen",
+			"size": "XXL",
+			"color": "Brown"
+		}
+		{
+			"name": "A Regular Shirt",
+			"picture": "normal.jpg",
+			"cost": "1.00 USD",
+			"size": "M",
+			"color": "Red"
+		}
+	]
+}
