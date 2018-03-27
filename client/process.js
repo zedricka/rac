@@ -1,5 +1,5 @@
 // gets the element via jQuery
-var getHTMLElement = $('#header-title').html();
+var getHTMLElement = $('#result_strip').html();
 console.loog(getHTMLElement);
 
 //global variable to store loop value
@@ -24,3 +24,5 @@ function loopy(){
 loopy();
 
 console.log ('final >>>', parseInt(getPrice.join('')));
+
+parseInt(getPrice.join())
