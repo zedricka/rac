@@ -1,12 +1,12 @@
 // gets the element via jQuery
 var getHTMLElement = $('#result_strip').html();
-console.loog(getHTMLElement);
+console.log(getHTMLElement);
 
 //global variable to store loop value
 var getPrice =[];
 
 // splits the string
-var split = getHTMLElement.split(''),
+var split = getHTMLElement.split('');
 
 // the function
 function loopy(){

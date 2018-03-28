@@ -5,6 +5,8 @@ var stripe = require('stripe')(CONFIG.SECRET_KEY);
 var path = require('path');
 var PORT = process.env.PORT || 8080;
 var app = express();
+
+app.use(express.static('client'));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', function(req, res) {
@@ -31,20 +33,7 @@ app.post('/charge', function(req, res) {
   );
 });
 
-// app.use(bodyParser.urlencoded({ extended: true }));
+app.listen(PORT, function() {
+  console.log(`Server listening on ${PORT}`);
+});
 
-// app.listen(PORT, function() {
-//   console.log(`Server listening on ${PORT}`);
-// });
-
-// var express = require('express'),
-//   path = require('path'),
-//   app = express();
-
-// app.set('port', process.env.PORT || 3000);
-
-// app.use(express.static('public'));
-
-// app.listen(app.get('port'), function (){
-//   console.log('The server is running on http://localhost:' + app.get('port'));
-// });
