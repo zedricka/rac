@@ -31,6 +31,20 @@ app.post('/charge', function(req, res) {
   );
 });
 
-app.listen(PORT, function() {
-  console.log(`Server listening on ${PORT}`);
-});
+// app.use(bodyParser.urlencoded({ extended: true }));
+
+// app.listen(PORT, function() {
+//   console.log(`Server listening on ${PORT}`);
+// });
+
+// var express = require('express'),
+//   path = require('path'),
+//   app = express();
+
+// app.set('port', process.env.PORT || 3000);
+
+// app.use(express.static('public'));
+
+// app.listen(app.get('port'), function (){
+//   console.log('The server is running on http://localhost:' + app.get('port'));
+// });
