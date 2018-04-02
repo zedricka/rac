@@ -109,11 +109,23 @@
       </section>
       </div>
       <div class="buttons">
-        <button type="button" class="checkout"><span>Checkout</span></button>
+<!-- Zedrick's Stripe button linked with Jomari's CSS code -->
+        <form class="checkout" action="/charge" method="POST"><span>
+          <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="pk_test_aMtFHuxPvtQUV8eEMwdfHZwH"
+          data-image="https://nairteashop.org/wp-content/uploads/avatar.png"
+          data-name="nairteashop.org"
+          data-description="Send lots of love"
+          data-amount="1000"
+          data-billing-address="true"
+          data-label="Checkout"
+          >
+          </script></span>
+        </form>
+<!-- Seperator -->
         <button type="button" class="clearcart"><span>Clear Cart</span></button>
       </div>
   </div>
-
   <div class="block3">
     <div class="cart">
       <div id="cartitem">
@@ -130,6 +142,7 @@
 
   </div>
   </body>
+
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="//webrtc.github.io/adapter/adapter-latest.js" type="text/javascript"></script>
   <script src="app.js" type="text/javascript"></script>
@@ -138,6 +151,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
   <script src="quagga.js"></script>
   <script src="process.js" type="text/javascript"></script>
+
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </html>
