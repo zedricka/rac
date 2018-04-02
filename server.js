@@ -15,7 +15,7 @@ app.get('/', function(req, res) {
 
 app.post('/charge', function(req, res) {
   var stripeToken = req.body.stripeToken;
-  var amount = 1000;
+  var amount = parseInt(getPrice.join()) * 100;
 
   stripe.charges.create(
     {
