@@ -12,9 +12,9 @@ var split = getHTMLElement.split('');
 function loopy(){
 // sets up the loop
     for (var i =0; i < split.length; i++) {
-        
+        let isNum = Number(split[i]) || split[i] === '0';
         //checks if there are numbers
-        if (Number(split[i])) {
+        if (isNum) {
             //if they are numbers, store in the global variable.
             getPrice.push(split[i]);
         }

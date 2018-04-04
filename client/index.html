@@ -6,33 +6,24 @@
 <!--     <link rel="stylesheet" href="/styles.css"> -->
   </head>
   <body>
-    <form action="/charge" method="POST">
-        <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                data-key="pk_test_aMtFHuxPvtQUV8eEMwdfHZwH"
-                data-image="https://nairteashop.org/wp-content/uploads/avatar.png"
-                data-name="nairteashop.org"
-                data-description="Send lots of love"
-                data-amount="1000"
-                data-billing-address="true"
-                data-label="Dolla dolla bill y'all"
-        >
-        </script>
-    </form>
-  <div class="block1">
-    <div class="itemcheckedout">
-      <div id="image">
-      </div>
-    </div>
-    <div id="details">
-      </div>
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
   </div>
+    <div class="block1">
+      <div class="itemcheckedout">
+        <div id="image">
+          <img src="../pictures/front.jpg">
+        </div>
+      </div>
+      <div id="details">
+        </div>
+    </div>
 
   <div class="block2">
       <div class="camerabox">
         <header>
           <div class="headline">
-              <h1>QuaggaJS</h1>
-              <h2>An advanced barcode-scanner written in JavaScript</h2>
           </div>
       </header>
     <section id="container" class="container">
