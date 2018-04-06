@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Checkout</title>
+</head>
+
+<body>
+
+  <form id="myForm" action="/charge" method="POST">
+    <input type="hidden" id="amountInDollars" />
+    <input type="hidden" id="stripeToken" name="stripeToken" />
+    <input type="hidden" id="stripeEmail" name="stripeEmail" />
+    <input type="hidden" id="amountInCents" name="amountInCents" />
+  </form>
+
+  <button id="customButton">DOLLA DOLLA BILL Y'ALL</button>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://checkout.stripe.com/checkout.js"></script>
+
+  <script>
+    var handler = StripeCheckout.configure({
+      key: 'pk_test_aMtFHuxPvtQUV8eEMwdfHZwH',
+      token: function (token) {
+        $("#stripeToken").val(token.id);
+        $("#stripeEmail").val(token.email);
+        $("#amountInCents").val(Math.floor($("#amountInDollars").val()));
+        $("#myForm").submit();
+      }
+    });
+    $('#customButton').on('click', function (e) {
+      $.get('/sendData', function (data) {
+        console.log(data.price, typeof data.price);
+        var price = Math.floor(data.price);
+        console.log('price???', price)
+        var amountInCents = $("#amountInDollars").val(price);
+        var displayAmount = parseInt(amountInCents[0].value);
+        console.log('display amount >>>', displayAmount);
+
+        // Open Checkout  with further options
+        handler.open({
+          name: 'Demo Site',
+          description: 'Total to be charged:' + displayAmount,
+          amount: displayAmount,
+        });
+      })
+      e.preventDefault();
+    }); // Close Checkout on page navigation $(window).on('popstate', function() { handler.close(); });
+  </script>
+</body>
+
+</html>

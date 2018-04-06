@@ -1,148 +1,58 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-<!--     <link rel="stylesheet" href="/styles.css"> -->
-  </head>
-  <body>
-  <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<html lang="en">
 
-  </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RAC WHS CAPSTONE DEMO</title>
+<!--     <link rel="stylesheet" href="./styles.css">
+ --></head>
+
+<body>
+<!--   <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="block1">
       <div class="itemcheckedout">
         <div id="image">
-          <img src="../pictures/front.jpg">
         </div>
       </div>
       <div id="details">
-        </div>
+      </div>
     </div>
+  </div>
 
-  <div class="block2">
-      <div class="camerabox">
-        <header>
-          <div class="headline">
-          </div>
-      </header>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span> -->
+
     <section id="container" class="container">
-        <h3>The user's camera</h3>
-        <p>
-            Find the barcode to an item and scan at least 5 inches away.
-        </p>
+        <h3>RAC WHS CAPSTONE</h3>
+
         <div class="controls">
             <fieldset class="input-group">
                 <button class="stop">Stop</button>
             </fieldset>
             <fieldset class="reader-config-group">
                 <label>
-                    <span>Barcode-Type</span>
-                    <select name="decoder_readers">
-                        <option value="code_128" selected="selected">Code 128</option>
-                    </select>
-                </label>
-                <label>
-                    <span>Resolution (width)</span>
-                    <select name="input-stream_constraints">
-                        <option value="320x240">320px</option>
-                        <option selected="selected" value="640x480">640px</option>
-                        <option value="800x600">800px</option>
-                        <option value="1280x720">1280px</option>
-                        <option value="1600x960">1600px</option>
-                        <option value="1920x1080">1920px</option>
-                    </select>
-                </label>
-                <label>
-                    <span>Patch-Size</span>
-                    <select name="locator_patch-size">
-                        <option value="x-small">x-small</option>
-                        <option value="small">small</option>
-                        <option selected="selected" value="medium">medium</option>
-                        <option value="large">large</option>
-                        <option value="x-large">x-large</option>
-                    </select>
-                </label>
-                <label>
-                    <span>Half-Sample</span>
-                    <input type="checkbox" checked="checked" name="locator_half-sample" />
-                </label>
-                <label>
-                    <span>Workers</span>
-                    <select name="numOfWorkers">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option selected="selected" value="4">4</option>
-                        <option value="8">8</option>
-                    </select>
-                </label>
-                <label>
                     <span>Camera</span>
                     <select name="input-stream_constraints" id="deviceSelection">
                     </select>
                 </label>
-                <label style="display: none">
-                    <span>Zoom</span>
-                    <select name="settings_zoom"></select>
-                </label>
-                <label style="display: none">
-                    <span>Torch</span>
-                    <input type="checkbox" name="settings_torch" />
-                </label>
             </fieldset>
         </div>
-      <div id="result_strip">
-        <ul class="thumbnails"></ul>
-        <ul class="collector"></ul>
-      </div>
-      <div id="interactive" class="viewport"></div>
-      </section>
-      </div>
-      <div class="buttons">
-<!-- Zedrick's Stripe button linked with Jomari's CSS code -->
-        <form class="checkout" action="/charge" method="POST"><span>
-          <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-          data-key="pk_test_aMtFHuxPvtQUV8eEMwdfHZwH"
-          data-image="https://nairteashop.org/wp-content/uploads/avatar.png"
-          data-name="nairteashop.org"
-          data-description="Send lots of love"
-          data-amount="1000"
-          data-billing-address="true"
-          data-label="Checkout"
-          >
-          </script></span>
-        </form>
-<!-- Seperator -->
-        <button type="button" class="clearcart"><span>Clear Cart</span></button>
-      </div>
-  </div>
-  <div class="block3">
-    <div class="cart">
-      <div id="cartitem">
-        <div id="ciimage">
+        <div id="result_strip">
+            <ul class="thumbnails"></ul>
         </div>
-        <div id="cartarrow">
-        </div>
-        <div id="remove">
-        </div>
-      </div>
-    </div>
-  </div>
+        <h1>hello</h1>
+        <div id="interactive" class="viewport"></div>
+    </section>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="//webrtc.github.io/adapter/adapter-latest.js" type="text/javascript"></script>
+    <script src="./quagga.js"></script>
+    <script src="./app.js"></script>
 
-  </div>
-  </body>
+</body>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="//webrtc.github.io/adapter/adapter-latest.js" type="text/javascript"></script>
-  <script src="app.js" type="text/javascript"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.js"></script>
-  <script src="https://js.stripe.com/v3/"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
-  <script src="quagga.js"></script>
-  <script src="process.js" type="text/javascript"></script>
-
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
 </html>
