@@ -77,7 +77,7 @@ img {
   font-size: 14px;
   padding: 5px;
   width: 100px;
-  transition: all 0.5s;
+  transition: all 0.5s; 
   cursor: pointer;
   margin: 5px;
   font-family: 'Raleway', sans-serif;
@@ -242,4 +242,8 @@ img {
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+}
+
+.sideboi {
+  height: 50%
 }
