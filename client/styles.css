@@ -1,75 +1,35 @@
-body{
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 1%;
-  justify-content: space-around;
-  background-color: light-gray;
-  font-family: 'Raleway', sans-serif;
-  max-height: 800px;
-}
 /*Picture of product from camerabox. and details about product*/
-
-
 .block1 {
-  padding: 75px;
-  border: 1px solid black;
-  padding-bottom: 700px;
-  border-radius: 25px;
-  max-width: 100%;
-  max-height: 50%;
+  padding: 5%;
+  width: 100%
   height: 100%;
   display: flex;
   flex-direction: column;
-
-
 }
 
-#image {
-  height: 30%;
-  margin-left: 100px;
-  margin-right: 50px;
-  margin-bottom: 30px;
-}
-
-img {
-  width: 100%;
+#details {
+  margin: 1%;
   height: 100%;
-}
-
- #details {
-   padding: 200px;
-   border: 1px solid black;
-   padding-right: 200px;
-   max-height: 40px;
-   max-width: 40px;
-   margin: 5px;
-   height: 100%;
-   width: 100%;
+  width: 90%;
  }
 
-
 /*Seperator*/
-
 /*Camera, checkout button, and clear cart button CSS code*/
 .block2{
   padding: 50px;
 }
-
 .camerabox{
   padding:100px;
   height: auto;
   width: 100px;
   border: 1px solid black;
 }
-
 .buttons{
   padding-top: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
-
 .checkout{
   border: none;
   color: black;
@@ -81,16 +41,13 @@ img {
   cursor: pointer;
   margin: 5px;
   font-family: 'Raleway', sans-serif;
-
 }
-
 .checkout span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
-
 .checkout span:after {
   content: '\00bb';
   position: absolute;
@@ -99,16 +56,13 @@ img {
   right: -20px;
   transition: 0.5s;
 }
-
 .checkout:hover span {
   padding-right: 20px;
 }
-
 .checkout:hover span:after {
   opacity: 1;
   right: 0;
 }
-
 .clearcart{
   border-radius: 4px;
   background-color: black;
@@ -123,14 +77,12 @@ img {
   margin: 5px;
   font-family: 'Raleway', sans-serif;
 }
-
 .clearcart span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
-
 .clearcart span:after {
   content: '\00AB';
   position: absolute;
@@ -139,18 +91,14 @@ img {
   left: -20px;
   transition: 0.5s;
 }
-
 .clearcart:hover span {
   padding-left: 25px;
 }
-
 .clearcart:hover span:after {
   opacity: 1;
   left: 0;
 }
-
 /*Seperator*/
-
 .block3{
   padding: 75px;
   border: 1px solid black;
@@ -160,21 +108,15 @@ img {
   display: flex;
   align-items: center;
 }
-
 .cart {
   padding: 20px;
   margin: 25px;
-
 }
-
-
 /* .buttons{
   align-self: center;
   padding: 5%;
   border: 0px;
 } */
-
-
 /* .container {
   display: flex;
   align-items: flex-start;
@@ -194,7 +136,6 @@ img {
     align-self: center;
     padding: 100px;
 } */
-
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
@@ -208,7 +149,6 @@ img {
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
-
 /* The navigation menu links */
 .sidenav a {
     padding: 8px 8px 8px 32px;
@@ -218,12 +158,10 @@ img {
     display: block;
     transition: 0.3s;
 }
-
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
     color: #f1f1f1;
 }
-
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
     position: absolute;
@@ -231,19 +169,50 @@ img {
     right: 25px;
     font-size: 36px;
 }
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-    transition: margin-left .5s;
-    padding: 20px;
-}
-
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {padding-top: 15px;};
+    .sidenav a {font-size: 18px;};
+}
+.sideboi {
+  height: 50%;
 }
 
-.sideboi {
-  height: 50%
+
+#image {
+  width: auto;
+  height: auto;
 }
+
+img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h4{
+  width: 100%
+}
+
+.header {
+  overflow: hidden;
+  padding: 2%;
+}
+
+.header img {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header img.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/*https://shop.nordstrom.com/s/comme-des-garcons-play-x-converse-chuck-taylor-hidden-heart-high-top-sneaker-men/4049999?origin=coordinating-4049999-2374609-1-MEN1-recbot-top_viewed_and_purchased_men&recs_placement=MEN1&recs_strategy=top_viewed_and_purchased_men&recs_source=recbot&recs_page_type=category*/
