@@ -10,9 +10,11 @@ body{
   margin: 0%;
 }
 
-title{
-  font-family: arial; 
+h3{
+font-family: 'Dancing Script', cursive;
 }
+
+
 
 .header {
   margin-left: auto;
@@ -66,7 +68,7 @@ img.logo {
   height: 100%;
 }
 .stop:hover, .stop:active {
-  background-color: black;
+  background-color: #474644;
   color: white;
 }
 
