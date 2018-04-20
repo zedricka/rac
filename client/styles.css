@@ -26,7 +26,7 @@ h4 {
 }
 p {
   margin: 0px;
-  font-size: x-small;
+  font-size: 75%;
 }
 
 #price {
@@ -37,6 +37,7 @@ p {
   height: auto;
   width: 30%;
   float: right;
+  margin-top: 5%;
 }
 
 .leftpic {
@@ -54,8 +55,8 @@ p {
 .header {
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
-  border-bottom: 1px solid #808080;
+  width: 100%;
+  border-bottom: 1px solid #E5E5E5;
 }
 /* Image Section */
 
@@ -68,6 +69,16 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 6%;
+}
+
+#mySidenav {
+  padding: 0%;
+}
+
+.smallicon{
+  margin-top: 2%;
+  width: 6%;
+  height: auto;
 }
 
 .helpme {
@@ -85,9 +96,11 @@ p {
 }
 
 #image {
-  width: 100%;
+  width: 95%;
   height: auto;
-  border-bottom: 1px solid #808080;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 
@@ -96,15 +109,29 @@ p {
   margin-right: 5%;
 }
 
+#barcode {
+  width: 8%;
+  height: auto;
+  margin-left: 7%;
+  margin-bottom: 1%;
+
+}
+
+#search {
+  width: 6%;
+  height: auto;
+  float: right;
+  margin-top: 4%;
+  margin-right: 5%;
+}
+
 
 img.logo {
   width: 30%;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5%;
-  display: block;
+  margin-left: 35%;
   margin-top: 5%;
+  margin-bottom: 3%;
 }
 
 .container {

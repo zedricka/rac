@@ -12,8 +12,13 @@
 <body>
   <div class="header">
     <img src="../images/logo.png" href="https://shop.nordstrom.com/" class="logo">
+    <img src="../images/flash.png" id="search">
     <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="header">
+        <img src="../images/logo.png" href="https://shop.nordstrom.com/" class="logo">
+        <img src="../images/barcode.png" id="barcode">
+        <img src="../images/search.png" id="search">
+      </div>
       <div class="block1">
         <div class="itemcheckedout">
           <div id="image">
@@ -27,19 +32,19 @@
             <p class="helpme">Hidden Heart High Top Sneaker</p>
           </div>
           <div id="right">
-            <p id="price" align="right">$135.00</p>
+            <p id="price" align="right"><b>$135.00</b></p>
           </div>
           
 
           <button id="bag">Add to Bag</button>
-          <button id="again">Scan again</button>
+          <button id="again" class="closeNav" onclick="closeNav()">Scan again</button>
 
         </div>
       </div>
     </div>
   </div>
 
-  <span style="font-size:30px;cursor:pointer" class="sideboi" onclick="openNav()">&#9776; Scanned Item</span>
+  <span style="font-size:30px;cursor:pointer" class="sideboi" onclick="openNav()"><img class=smallicon src="../images/notification.png"> Scanned Item</span>
 
     <section id="container" class="container">
         <div class="controls">
