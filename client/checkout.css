@@ -1,0 +1,65 @@
+html {
+	font-family: arial;
+}
+
+.logo {
+  width: 30%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  display: block;
+  margin-top: 5%;
+}
+
+.header {
+	border-bottom: 1px solid gray;
+}
+
+#title {
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+}	
+
+#customButton {
+	background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+}
+
+.osContainer{
+	border: 2px solid black;
+	padding: 3px;
+	margin-bottom: 360px;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
+.osContainer #one {
+	width: 80%;
+	height: 50%;
+}
+
+.osContainer #two {
+	width: 20%;
+	height: 50%;
+}
+
+
+#line {
+	border-bottom: 1px solid darkgray;
+	width: 100%;
+}
+
+ #three {
+	color:red;
+}
