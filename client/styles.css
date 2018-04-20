@@ -14,30 +14,114 @@ h3{
 font-family: 'Dancing Script', cursive;
 }
 
+#left {
+  float: left;
+  width: 70%;
+  height: auto;
+}
 
+h4 {
+  margin-top: 10%;
+  margin-bottom: 0%;
+}
+p {
+  margin: 0px;
+  font-size: 75%;
+}
+
+#price {
+  margin-top: 10%;
+}
+
+#right {
+  height: auto;
+  width: 30%;
+  float: right;
+  margin-top: 5%;
+}
+
+.leftpic {
+  width: 50%;
+  height: auto;
+  float: left;
+}
+
+.rightpic {
+  width: 50%;
+  height: auto;
+  float: right;
+}
 
 .header {
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
-  border-bottom: 1px solid #808080;
+  width: 100%;
+  border-bottom: 1px solid #E5E5E5;
 }
 /* Image Section */
 
+#bag {
+  height: 60px;
+  background-color: black;
+  color: white;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6%;
+}
+
+#mySidenav {
+  padding: 0%;
+}
+
+.smallicon{
+  margin-top: 2%;
+  width: 6%;
+  height: auto;
+}
+
+.helpme {
+  margin-bottom: 20%;
+}
+
+#again {
+  height: 60px;
+  background-color: white;
+  color: black;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #image {
-  width: 100%;
+  width: 95%;
   height: auto;
-  border-bottom: 1px solid #808080;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-#image img {
-  width: 100%;
-  height: auto;
-}
 
 #details {
   margin-left: 5%;
+  margin-right: 5%;
+}
+
+#barcode {
+  width: 8%;
+  height: auto;
+  margin-left: 7%;
+  margin-bottom: 1%;
+
+}
+
+#search {
+  width: 6%;
+  height: auto;
+  float: right;
+  margin-top: 4%;
   margin-right: 5%;
 }
 
@@ -45,11 +129,9 @@ font-family: 'Dancing Script', cursive;
 img.logo {
   width: 30%;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5%;
-  display: block;
+  margin-left: 35%;
   margin-top: 5%;
+  margin-bottom: 3%;
 }
 
 .container {
