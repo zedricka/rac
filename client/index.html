@@ -10,23 +10,43 @@
 </head>
 
 <body>
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div class="block1">
-      <div class="itemcheckedout">
-        <div id="image">
-        </div>
+  <div class="header">
+    <img src="../images/logo.png" href="https://shop.nordstrom.com/" class="logo">
+    <img src="../images/flash.png" id="search">
+    <div id="mySidenav" class="sidenav">
+      <div class="header">
+        <img src="../images/logo.png" href="https://shop.nordstrom.com/" class="logo">
+        <img src="../images/barcode.png" id="barcode" class="closeNav" onclick="closeNav()>
+        <img src="../images/search.png" id="search">
       </div>
-      <div id="details">
+      <div class="block1">
+        <div class="itemcheckedout">
+          <div id="image">
+            <img class="leftpic" src="../pictures/front.jpg">
+            <img class="rightpic" src="../pictures/back.jpg">
+          </div>
+        </div>
+        <div id="details">
+          <div id="left">
+            <h4><b>Comme des Garçons PLAY x Converse Chuck Taylor®</b></h4>
+            <p class="helpme">Hidden Heart High Top Sneaker</p>
+          </div>
+          <div id="right">
+            <p id="price" align="right"><b>$135.00</b></p>
+          </div>
+          
+
+          <button id="bag">Add to Bag</button>
+          <button id="again" class="closeNav" onclick="closeNav()">Scan again</button>
+
+        </div>
       </div>
     </div>
   </div>
 
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+  <span style="font-size:30px;cursor:pointer" class="sideboi" onclick="openNav()"><img class=smallicon src="../images/notification.png"> Scanned Item</span>
 
     <section id="container" class="container">
-        <h3>RAC WHS CAPSTONE</h3>
-
         <div class="controls">
             <fieldset class="input-group">
                 <button class="stop">Stop</button>
@@ -42,7 +62,6 @@
         <div id="result_strip">
             <ul class="thumbnails"></ul>
         </div>
-        <h1>hello</h1>
         <div id="interactive" class="viewport"></div>
     </section>
 
@@ -56,3 +75,4 @@
 </body>
 
 </html>
+
