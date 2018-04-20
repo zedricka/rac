@@ -10,22 +10,41 @@
 </head>
 
 <body>
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div class="block1">
-      <div class="itemcheckedout">
-        <div id="image">
+  <div class="header">
+    <img src="../images/logo.png" href="https://shop.nordstrom.com/" class="logo">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="block1">
+        <div class="itemcheckedout">
+          <div id="image">
+            <img src="../pictures/front.jpg">
+          </div>
         </div>
-      </div>
-      <div id="details">
+        <div id="details">
+         <h4>Comme des Garçons PLAY x Converse Chuck Taylor® - Hidden Heart High Top Sneaker</h4>
+        <p>$135.00</p>
+        <p>Cool vintage style elevates a street-ready sneaker stamped with a peekaboo heart.</p>
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Size</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">6</a>
+              <a href="#">7</a>
+              <a href="#">8</a>
+              <a href="#">9</a>
+              <a href="#">10</a>
+              <a href="#">11</a>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
 
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+  <span style="font-size:30px;cursor:pointer" class="sideboi" onclick="openNav()">&#9776; Scanned Item</span>
 
     <section id="container" class="container">
-        <h3>RAC WHS CAPSTONE</h3>
+        <h3 id="tittles">RAC WHS CAPSTONE</h3>
 
         <div class="controls">
             <fieldset class="input-group">
@@ -42,7 +61,6 @@
         <div id="result_strip">
             <ul class="thumbnails"></ul>
         </div>
-        <h1>hello</h1>
         <div id="interactive" class="viewport"></div>
     </section>
 
@@ -56,3 +74,4 @@
 </body>
 
 </html>
+
