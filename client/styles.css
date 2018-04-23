@@ -55,7 +55,7 @@ p {
 .header {
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 95%;
   border-bottom: 1px solid #E5E5E5;
 }
 /* Image Section */
@@ -127,9 +127,9 @@ p {
 
 
 img.logo {
-  width: 30%;
+  width: 30.5%;
   height: auto;
-  margin-left: 35%;
+  margin-left: 34.8%;
   margin-top: 5%;
   margin-bottom: 3%;
 }

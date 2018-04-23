@@ -1,19 +1,19 @@
-html {
+html body {
 	font-family: arial;
+  margin-top: 0px;
 }
 
 .logo {
   width: 30%;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5%;
-  display: block;
+  margin-left: 35%;
   margin-top: 5%;
+  margin-bottom: 2.9%;
 }
 
 .header {
-	border-bottom: 1px solid gray;
+  width: 100%;
+  border-bottom: 1px solid #E5E5E5;
 }
 
 #title {
