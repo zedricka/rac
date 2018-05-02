@@ -13,15 +13,15 @@ body{
 img.logo {
   width: 30.5%;
   height: auto;
-  margin-left: 34.8%;
+  margin-left: 22%;
   margin-top: 5%;
   margin-bottom: 3%;
 }
 
 #barcode {
-  width: 8%;
+  width: 8.1%;
   height: auto;
-  margin-left: 7%;
+  margin-left: 8%;
   margin-bottom: 1%;
 }
 
@@ -42,4 +42,11 @@ img.logo {
 .fill {
 	width: 100%;
 	height: 100%;
+}
+
+img.menu {
+  width: 8.2%;
+  height: auto;
+  margin-bottom: 1%;
+  margin-left: 3.5%;
 }

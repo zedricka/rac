@@ -1,5 +1,5 @@
 html body {
-	font-family: arial;
+  font-family: arial;
   margin-top: 0px;
   background-color: #f9fffe;
 }
@@ -7,8 +7,8 @@ html body {
 .logo {
   width: 30%;
   height: auto;
-  margin-left: 35%;
-  margin-top: 0.5%;
+  margin-left: 22%;
+  margin-top: 5%;
   margin-bottom: 2.9%;
 }
 
@@ -27,7 +27,7 @@ html body {
     margin: auto;
     width: 20%;
     padding: 10px;
-}	
+} 
 
 #customButton {
     background-color: black;
@@ -44,14 +44,15 @@ html body {
 #barcode {
   width: 7.9%;
   height: auto;
-  margin-top: -1%;
-  margin-left: 7%;
+  margin-bottom: 1%;
+  margin-left: 8%;
 }
 
 #search {
   width: 6%;
   height: auto;
   float: right;
+  margin-top: 4%;
   margin-right: 5.5%;
 }
 
@@ -94,4 +95,11 @@ html body {
     margin-top: 0%;
     width: 1%;
     height: 1%;
+}
+
+img.menu {
+  width: 8.2%;
+  height: auto;
+  margin-bottom: 1%;
+  margin-left: 3.5%;
 }

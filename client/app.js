@@ -61,3 +61,10 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+$(document).ready(function(){
+    $(".sideboi").click(function(){
+        $(".block1").fadeIn("slow");
+
+    });
+});

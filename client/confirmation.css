@@ -4,10 +4,10 @@ html body {
   background-color: #f9fffe;
 }
 
-.logo {
-  width: 30%;
+img.logo {
+  width: 30.5%;
   height: auto;
-  margin-left: 35%;
+  margin-left: 21.8%;
   margin-top: 5%;
   margin-bottom: 3%;
 }
@@ -71,4 +71,27 @@ html body {
 .sideRight img {
   width: 100%;
   height: 100%;
+}
+
+img.menu {
+  width: 8%;
+  height: auto;
+  margin-bottom: 1%;
+  margin-left: 4%;
+}
+
+#barcode {
+  width: 8%;
+  height: auto;
+  margin-left: 7%;
+  margin-bottom: 1%;
+
+}
+
+#search {
+  width: 6%;
+  height: auto;
+  float: right;
+  margin-top: 4%;
+  margin-right: 5%;
 }
