@@ -1,20 +1,23 @@
-html {
-	font-family: arial;
+html body {
+	font-family: 'Roboto', sans-serif;
+  	margin-left: 10px;
+  	margin-right: 10px;
+  	background-color: #dff0fa;
 }
 
 .logo {
   width: 30%;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5%;
-  display: block;
-  margin-top: 5%;
+  margin-left: 35%;
+  margin-top: -20px;
+  margin-bottom: 2.9%;
 }
 
 .header {
-	border-bottom: 1px solid gray;
+  width: 100%;
+  border-bottom: 1px solid #E5E5E5;
 }
+
 
 #title {
     margin: auto;
@@ -37,7 +40,8 @@ html {
 .osContainer{
 	border: 2px solid black;
 	padding: 3px;
-	margin-bottom: 360px;
+	margin-bottom: 180px;
+	margin-top: 0px;
 	display: inline-flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -61,5 +65,15 @@ html {
 }
 
  #three {
-	color:red;
+	width: 100%;
+}
+
+#orderSummary{
+	margin-top: 100px;
+}
+
+#egg {
+	margin-top: -30px;
+	width: 1%;
+	height: 1%;
 }
