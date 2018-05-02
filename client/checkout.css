@@ -64,6 +64,7 @@ html body {
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-left: 0.89%
 
 }
 
@@ -89,6 +90,7 @@ html body {
 
 #orderSummary{
     margin-top: 100px;
+    margin-left: 1%;
 }
 
 #egg {
