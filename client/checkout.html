@@ -4,14 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./checkout.css">
   <title>Checkout</title>
 </head>
 
 <body>
+  <img id="egg" src="./images/logo.png" href="https://shop.nordstrom.com/" class="logo">
   <div class="header">
-    <img src="../images/logo.png" href="https://shop.nordstrom.com/" class="logo">
+    <img src="./images/logo.png" href="https://shop.nordstrom.com/" class="logo">
   </div>
   <form id="myForm" action="/charge" method="POST">
     <input type="hidden" id="amountInDollars" />
@@ -20,8 +22,8 @@
     <input type="hidden" id="amountInCents" name="amountInCents" />
   </form>
 
-  <div id="title">Checkout</div>
-  <div id="orderSummary">Order Summary</div>
+  <h4 id="title">Checkout</h4>
+  <h4 id="orderSummary">Order Summary:</h4>
   <div class="osContainer">
     <p id="one">Item:</p>
     <p id="two">$135.00</p>
