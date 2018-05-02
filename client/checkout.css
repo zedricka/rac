@@ -1,13 +1,14 @@
 html body {
 	font-family: arial;
   margin-top: 0px;
+  background-color: #f9fffe;
 }
 
 .logo {
   width: 30%;
   height: auto;
   margin-left: 35%;
-  margin-top: 5%;
+  margin-top: 0.5%;
   margin-bottom: 2.9%;
 }
 
@@ -20,10 +21,16 @@ html body {
     margin: auto;
     width: 20%;
     padding: 10px;
+}    
+
+#title {
+    margin: auto;
+    width: 20%;
+    padding: 10px;
 }	
 
 #customButton {
-	background-color: black;
+    background-color: black;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -34,32 +41,57 @@ html body {
     width: 100%;
 }
 
+#barcode {
+  width: 7.9%;
+  height: auto;
+  margin-top: -1%;
+  margin-left: 7%;
+}
+
+#search {
+  width: 6%;
+  height: auto;
+  float: right;
+  margin-right: 5.5%;
+}
+
 .osContainer{
-	border: 2px solid black;
-	padding: 3px;
-	margin-bottom: 360px;
-	display: inline-flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+    border: 2px solid black;
+    padding: 3px;
+    margin-bottom: 180px;
+    margin-top: 0px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 
 .osContainer #one {
-	width: 80%;
-	height: 50%;
+    width: 80%;
+    height: 50%;
 }
 
 .osContainer #two {
-	width: 20%;
-	height: 50%;
+    width: 20%;
+    height: 50%;
 }
 
 
 #line {
-	border-bottom: 1px solid darkgray;
-	width: 100%;
+    border-bottom: 1px solid darkgray;
+    width: 100%;
 }
 
  #three {
-	color:red;
+    width: 100%;
+}
+
+#orderSummary{
+    margin-top: 100px;
+}
+
+#egg {
+    margin-top: 0%;
+    width: 1%;
+    height: 1%;
 }
