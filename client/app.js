@@ -68,3 +68,13 @@ $(document).ready(function(){
 
     });
 });
+
+/* Set the width of the side navigation to 250px */
+function openMe() {
+    document.getElementById("myMenubar").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeMenu() {
+    document.getElementById("myMenubar").style.width = "0";
+}
