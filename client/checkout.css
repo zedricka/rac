@@ -59,7 +59,7 @@ html body {
 .osContainer{
     border: 2px solid black;
     padding: 3px;
-    margin-bottom: 180px;
+    margin-bottom: 10%;
     margin-top: 0px;
     display: inline-flex;
     flex-direction: row;
