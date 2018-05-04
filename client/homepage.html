@@ -12,7 +12,18 @@
 
 <body>
   <div class="header">
-  	<img src="./images/menu.png" class="menu">
+
+    <div id="myMenubar" class="menubar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+      <a href="#" onclick="openNav()">Scanned Items</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+
+  	<img src="./images/menu.png" class="menu" onclick="openMe()">
+
     <img src="./images/logo.png" href="https://shop.nordstrom.com/" class="logo">
     <img src="./images/flash.png" id="search">
     <div id="mySidenav" class="sidenav">  
@@ -52,9 +63,6 @@
       </div>
     </div>
   </div>
-
-  <span style="font-size:24px;cursor:pointer" class="sideboi" onclick="openNav()"><img class=smallicon src="./images/notification.png"> Scanned Item</span>
-
     <section id="container" class="container">
         <div class="controls">
             <fieldset class="input-group">

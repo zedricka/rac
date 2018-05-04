@@ -7,6 +7,7 @@ console.log(getresults);
 /* Open the sidenav */
 function openNav() {
     document.getElementById("mySidenav").style.width = "100%";
+    document.getElementById("myMenubar").style.width = "0";
 }
 
 /* Close/hide the sidenav */
@@ -68,3 +69,13 @@ $(document).ready(function(){
 
     });
 });
+
+/* Set the width of the side navigation to 250px */
+function openMe() {
+    document.getElementById("myMenubar").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeMenu() {
+    document.getElementById("myMenubar").style.width = "0";
+}
