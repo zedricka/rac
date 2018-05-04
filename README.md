@@ -12,14 +12,13 @@ To resolve Nordstrom's situation, RAC will develop an Bar Code reader function t
 
 ### Tech Stack:
 - HTML, CSS, and Javascript
-- AWS Lambdas
+- jquery
 - QuaggaJS
-- Stripe Intergration
+- Stripe
 - npm
-- Android API
 
 ### MVP:
-- Bar Scanning working on EAN codes
+- Bar Scanning working on Code 104
 
 ### Stretch Goals :
 - Improve Nordstrom's UI
@@ -48,5 +47,15 @@ To resolve Nordstrom's situation, RAC will develop an Bar Code reader function t
 - Implement the UI improvements
 - Attempt to allow the Bar Code Scanning to be universal
 
-    
+### Build Instructions
+- git clone 
+- go into directory -> npm install
+- create a stripe account and turn on test data
+- add config.json file -> add a object with a key from stripe, it should look like this:
+    {
+    "SECRET_KEY": "sk_EXAMPLE"
+    }
+- run node server.js
+- type in browser "localhost:8080"
+- Proceed through app
 
