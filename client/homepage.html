@@ -24,12 +24,12 @@
 
   	<img src="./images/menu.png" class="menu" onclick="openMe()">
 
-    <img src="./images/logo.png" href="https://shop.nordstrom.com/" class="logo">
+    <img src="./images/logo.png" href="https://shop.nordstrom.com/" class="logo" id="logo1" onclick="location.href">
     <img src="./images/flash.png" id="search">
     <div id="mySidenav" class="sidenav">  
       <div class="header">
-  	   	<img src="./images/menu.png" class="menu">
-        <img src="./images/logo.png" href="https://shop.nordstrom.com/" class="logo">
+  	    <img src="./images/menu.png" class="menu" onclick="openMe()">
+        <img src="./images/logo.png" href="https://shop.nordstrom.com/" class="logo" id="logo2" onclick="location.href">
         <img src="./images/barcode.png" id="barcode" class="closeNav" onclick="closeNav()">
         <img src="./images/search.png" id="search">
       </div>
@@ -82,6 +82,14 @@
         <div id="interactive" class="viewport"></div>
     </section>
 
+    <script type="text/javascript">
+      document.getElementById("logo1").onclick = function () {
+          location.href = "index.html";
+      };
+      document.getElementById("logo2").onclick = function () {
+          location.href = "index.html";
+      };  
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
